@@ -1,0 +1,37 @@
+ Assignment-4
+
+1 Try to create xpaths of svg elements
+
+Ans: screen shot is available in the folder.
+
+2 Try to create xpaths of elements that disappears after a short span of time
+
+Ans: To create the Xpath of elements that disappears after a short span of time are follows:
+ 
+Step 1: Go to any webpage that have the above requied elements and left click and then click inspect.
+Step 2: put the mouse over the disappear element and click at source right of console.
+Step 3: put your mouse over disappearing element and click F8 this will the freezes the web page
+Step 4: click at the top left corner of the inspect page on an element like box with an arraow
+Step 5 after clicking it will the show the source code of disappearing element and you could write the Xpath.
+
+3 Why do we need axes methods to create xpaths? Try to create different xpaths using axes methods
+
+Ans Xpath axes help to find elements based on the elements relationship with another element in
+an XML documents.
+
+1 Ancestor://div[@class="container"]//ancestor::div
+This will find the all ancestor of class container by ancestor mean parent,gransparent etc.
+
+2 child: //input[@class="conatiner"]//child::div
+This will find the child of class conatiner.
+
+3 Peceding: //div[@class="container"]//preceding::div
+This will find all the nodes that comes before the class conatiner.
+
+
+4 Following-Sibling:  //div[@class="container"]//following-sibling
+Find the all the sibling of class container , sibling means having common parent.
+
+
+5 Parent: //div[@class="container"]//parent::div
+This will find the parent of class conatiner.
